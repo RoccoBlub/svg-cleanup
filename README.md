@@ -40,5 +40,15 @@ python3 clean.py your_image.svg
 
 **Output:** A new file named fixed_your_image.svg will be generated in your current directory.
 
+## Example
 
+| Before (AI Generated)  | After (Processed) |
+| ------------- |:-------------:|
+| Contains #020202, #080808, #FDFDFD      | Only #000000 and #FFFFFF     |
+| Multiple unnecessary layers in CAM software      | Two clean, distinct color groups     |
 
+## Roadmap / Future Ideas
+
+- [ ] Add support for stroke attributes.
+- [ ] Batch processing for entire folders.
+- [ ] Custom thresholding (e.g., make everything black unless it's 90% white).
